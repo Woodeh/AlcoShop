@@ -473,8 +473,20 @@ input:focus {
 
 
 @media screen and (max-width: 400px) {
+
+    .container {
+        justify-content: space-evenly;
+        
+    }
+
+    .menu {
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
     .product {
         max-width: 150px;
+        margin-bottom: 45px;
     }
 
     .product img {
@@ -483,7 +495,8 @@ input:focus {
     }
 
     .product-title {
-        font-size: 14px
+        font-size: 16px;
+        margin-top: -5px;
     }
 
     .product-price {
@@ -497,5 +510,12 @@ input:focus {
     .filters {
         margin-left: 0px;
         gap: 5px;
+        padding-bottom: 45px;
+    }
+
+    .buy-button {
+        font-size: 16px;
+        min-height: 35px;
+        margin-top: 5px;
     }
 }
