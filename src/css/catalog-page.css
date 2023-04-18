@@ -176,8 +176,8 @@ a:visited {
 }
 
 .product img {
-    width: 280px;
-    height: 280px;
+    max-width: 280px;
+    max-height: 280px;
     transition: 2.5s ease;
 }
 
@@ -469,4 +469,33 @@ input:focus {
     transition: box-shadow .5s ease-in-out 0s, color .7s;
     border: 0px solid #002D5B;
     outline: none;
+}
+
+
+@media screen and (max-width: 400px) {
+    .product {
+        max-width: 150px;
+    }
+
+    .product img {
+        max-width: 150px;
+        max-height: 150px;;
+    }
+
+    .product-title {
+        font-size: 14px
+    }
+
+    .product-price {
+        font-size: 16px;
+    }
+
+    a.product-link {
+        font-size: 14px;
+    }
+
+    .filters {
+        margin-left: 0px;
+        gap: 5px;
+    }
 }
