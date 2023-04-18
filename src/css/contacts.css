@@ -1,0 +1,100 @@
+.contacts {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.contacts-title {
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 72px;
+    margin-top: 90px;
+}
+
+.contacts-group {
+    width: 312px;
+    height: 214px;
+    margin-bottom: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+
+.group-text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    color: black;
+}
+
+#group-link {
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+
+#map {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 330px;
+    background: rgb(56, 56, 55);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.contacts-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.contacts-logo1 {
+    background-image: url(/src/assets/pictures/facebook-logo.svg);
+    width: 28px;
+    height: 28px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.contacts-logo1:hover {
+    background-image: url(/src/assets/pictures/iconizer-facebook-logo-red.svg);
+}
+
+.contacts-logo2 {
+    background-image: url(/src/assets/pictures/insta-logo.svg);
+    width: 28px;
+    height: 28px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.contacts-logo2:hover {
+    background-image: url(/src/assets/pictures/iconizer-insta-logo-pink.svg);
+}
+
+#phone-link {
+    font-weight: 500;
+}
+
+#phone-link:hover {
+    color: #02315E;
+}

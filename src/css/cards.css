@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sliderCard {
+    max-width: 1370px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slider-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    height: 500px;
+    align-items: center;
+}
+
+.slide {
+    width: 312px;
+    margin-right: 40px;
+    height: 524px;
+    user-select: none;
+}
+
+.slide:last-child {
+    margin-right: 0;
+}
+
+.sliderCard2 {
+    max-width: 1370px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slider-container2 {
+    display: flex;
+    width: 100%;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    height: 500px;
+    align-items: center;
+}
+
+.slide2 {
+    width: 312px;
+    margin-right: 40px;
+    height: 524px;
+    user-select: none;
+}
+
+.slide2:last-child {
+    margin-right: 0;
+}
+
+.card-image {
+    width: 312px;
+    height: 312px;
+}
+
+.card-new-products {
+    max-height: 472px;
+    max-width: 312px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0px 10px 1px rgba(221, 221, 221, 1);
+}
+
+.title-new-products {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.card-price-new-product {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0 16px 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.card-price-new-product-title {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.add-btn {
+    max-width: 312px;
+    width: 100%;
+    min-height: 52px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    box-shadow: inset 0 0 0 0 #002D5B;
+    transition: box-shadow .2s;
+    color: #202020;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.cards-new-produts {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.add-btn:hover {
+    color: white;
+    box-shadow: inset 0 -300px 0 0 #002D5B;
+    transition: box-shadow .5s ease-in-out 0s, color .7s;
+    border: 2px solid #002D5B;
+}
+
+.sale {
+    position: absolute;
+    left: 22px;
+    top: 22px;
+}
+
+.card-new-products-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#cartBtn {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    width: 20px;
+    height: 19px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+    color: rgb(177, 16, 16);
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+    position: absolute;
+    right: -20px;
+}

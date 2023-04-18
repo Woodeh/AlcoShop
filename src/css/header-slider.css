@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1330px;
+    background-color: #DADADA;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrap {
+    display: flex;
+}
+
+header {
+    padding-top: 60px;
+    background-color: #DADADA;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 150px;
+
+}
+
+.search {
+    display: flex;
+}
+
+.btn-search {
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #A8A8A8;
+    background-image: url(/src/assets/pictures/header/Search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 52px 52px;
+    margin-left: 27px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn-search:hover {
+
+    background-image: url(/src/assets/pictures/header/SearchGrey.png);
+
+}
+
+.search input:focus {
+    color: Grey;
+}
+
+.search input {
+    background-color: #DADADA;
+    border: none;
+    max-width: 296px;
+    height: 52px;
+    border-bottom: 2px solid #A8A8A8;
+    text-align: left;
+    -webkit-box-shadow: inset 0 0 0 50px #dadada;
+    -webkit-text-fill-color: #000;
+}
+
+.search input::placeholder {
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.menu {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #202020;
+    display: flex;
+    gap: 24px;
+}
+
+.menu a {
+    position: relative;
+    color: #202020;
+}
+
+.menu a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    margin: 0 0 -11px 0;
+    background-color: #A8A8A8;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.menu a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.menu a:hover {
+    color: #002D5B;
+    transition: all .5s;
+    text-shadow: 0px 0px 2px #002e5b68;
+}
+
+a:visited {
+    color: #202020;
+}
+
+@media screen and (max-width: 768px) {
+    .menu button {
+        display: none;
+    }
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    background-color: #DADADA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 5s ease;
+}
+
+.slider-item {
+    flex-shrink: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.slider-item:last-child {
+    margin-right: 0;
+}
+
+.slider-item img {
+    max-width: 100%;
+}
+
+.slider-caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.slider-controls {
+    position: relative;
+    top: 335px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider-control {
+    position: absolute;
+    top: -800px;
+    transform: translateY(-50%);
+    display: inline-block;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+
+    padding: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.slider-control-prev {
+    left: 25px;
+    font-size: 0;
+    width: 52px;
+    transform: all .5s;
+}
+
+.slider-control-prev:hover,
+.slider-control-next:hover {
+    width: 52px;
+    box-shadow: 0px 0px 8px #0000006f;
+    transition: box-shadow .5s;
+}
+
+.slider-control-next {
+    right: 25px;
+    font-size: 0;
+    width: 52px;
+}
+
+.pagination {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    bottom: 50px;
+    right: 20%;
+    gap: 16px;
+}
+
+.pagination-item {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #202020;
+    margin: 0px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.pagination-item.active {
+    background-color: #F2F2F2;
+}
+
+.see-more-button {
+    width: 312px;
+    height: 52px;
+    position: relative;
+    left: -435px;
+    bottom: 200px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    border: 2px solid #002D5B;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #002D5B;
+}
+
+.see-more-button:hover {
+    color: white;
+    box-shadow: inset 0 -300px 0 0 #002D5B;
+    transition: box-shadow .5s ease-in-out 0s, color .7s;
+
+
+}
