@@ -1,4 +1,3 @@
-import { addToCart } from "./modules/cards-module/cards.js";
 
 const slider = document.querySelector(".slider");
 const sliderWrapper = slider.querySelector(".slider-wrapper");

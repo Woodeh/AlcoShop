@@ -4,7 +4,7 @@ addButtons.forEach((button) => {
   button.addEventListener("click", addToCart);
 });
 
-export function addToCart() {
+function addToCart() {
   console.log("Товар добавлен в корзину");
 }
 
