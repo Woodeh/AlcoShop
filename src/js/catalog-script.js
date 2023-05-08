@@ -8,7 +8,7 @@ const products = [
     imgUrl: "src/assets/pictures/catalog/sheridan.png",
     title: "Sheridan",
     composition: "",
-    link: "src/big-card-product/big-card-product-sheridan-liqueur.html",
+    link: "big-card-product/big-card-product-sheridan-liqueur.html",
   },
   {
     type: "champagne",
@@ -19,7 +19,7 @@ const products = [
     imgUrl: "src/assets/pictures/catalog/moet.png",
     title: "Moët & Chandon ",
     composition: "",
-    link: "src/big-card-product/big-card-product-champagne-moet.html",
+    link: "big-card-product/big-card-product-champagne-moet.html",
   },
   {
     type: "tequila",
@@ -30,7 +30,7 @@ const products = [
     imgUrl: "src/assets/pictures/catalog/Tequila 1.png",
     title: "Olmeca",
     composition: "",
-    link: "src/big-card-product/big-card-product-olmeca-tequila.html",
+    link: "big-card-product/big-card-product-olmeca-tequila.html",
   },
   {
     type: "gin",
@@ -41,7 +41,7 @@ const products = [
     imgUrl: "src/assets/pictures/catalog/Gin 1.png",
     title: "Bombay Sapphire",
     composition: "",
-    link: "src/big-card-product/big-card-product-bombay-gin.html",
+    link: "big-card-product/big-card-product-bombay-gin.html",
   },
   {
     type: "beer",
@@ -52,7 +52,7 @@ const products = [
     imgUrl: "src/assets/pictures/catalog/beer 1.png",
     title: "Corona Extra",
     composition: "",
-    link: "src/big-card-product/big-card-product-beer-corona.html",
+    link: "big-card-product/big-card-product-beer-corona.html",
   },
   {
     type: "vodka",
@@ -63,7 +63,7 @@ const products = [
     imgUrl: "src/assets/pictures/catalog/absolute.png",
     title: "Absolute",
     composition: "",
-    link: "src/big-card-product/big-card-product-absolut-vodka.html",
+    link: "big-card-product/big-card-product-absolut-vodka.html",
   },
   {
     type: "gin",
@@ -74,7 +74,7 @@ const products = [
     imgUrl: "src/assets/pictures/catalog/bottle1.png",
     title: "Hendrick's Orbium",
     composition: "",
-    link: "src/big-card-product/big-card-product-hendricks-gin.html",
+    link: "big-card-product/big-card-product-hendricks-gin.html",
   },
   {
     type: "whiskey",
@@ -85,7 +85,7 @@ const products = [
     imgUrl: "src/assets/pictures/catalog/chivas.png",
     title: "Chivas Regal",
     composition: "",
-    link: "src/big-card-product/big-card-product-chivas-whisky.html",
+    link: "big-card-product/big-card-product-chivas-whisky.html",
   },
 ];
 
