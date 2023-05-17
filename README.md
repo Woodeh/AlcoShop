@@ -1,4 +1,4 @@
-## <p align="center">AlcoShop</p>
+## <p align="center">🍷 AlcoShop 🍷</p>
 
 <p align="center">A coursework project for the TMS school, which should show the ability to work with JavaScript.  The design is completely individual, as it was developed by a designer I know.</p>
 
